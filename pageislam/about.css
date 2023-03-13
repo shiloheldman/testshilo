@@ -1,0 +1,682 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-block {
+  width: 100%;
+  height: 144px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__nav-block {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nav-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-1__icons {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-1__icons a {
+  text-decoration: none;
+}
+.nav-1__icons a ion-icon {
+  color: #001ED3;
+  width: 20px;
+  height: 20px;
+}
+
+.nav-1__items {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-1__items a {
+  color: #41444B;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
+}
+
+.border-line {
+  width: 100%;
+  height: 1px;
+  background-color: #D4D7DD;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-2__items {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-2__items a {
+  font-family: "Kanit", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-decoration: none;
+  color: #00215B;
+}
+
+.logo-nav {
+  width: 10%;
+  height: 100%;
+}
+
+.logo-nav::before {
+  content: "";
+  width: 25%;
+  height: 20%;
+  position: relative;
+  top: 4px;
+  left: 23px;
+  background-color: red;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .nav-1__icons {
+    width: 30%;
+  }
+  .nav-2__items {
+    display: none;
+  }
+  .nav-1__items {
+    gap: 10%;
+  }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@500&display=swap');
+
+
+
+
+.container-img{
+    width: 100%;
+    display: flex;
+    height: 419px;
+    background-image: url(./Rectangle\ 1.png);
+}
+.img-text{
+    width: 20%;
+    height: 20%;
+   
+    margin: 180px 350px;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.img-text h1{
+font-family: "Montserrat";
+color: #Fff;
+
+font-size: 32px;
+font-weight: 800;
+}
+.img-text span{
+    font-family: "Montserrat";
+    color: #Fff;
+    font-size: 19px;
+    font-weight: 200;
+    }
+
+.relative-item{
+    width: 400px;
+    height: 200px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: 330px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.liner-rel{
+    width: 100%;
+    height: 10px;
+    background-color: crimson;
+}
+.relative-item span{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+
+.relative-item h1{
+    font-family: "Montserrat";
+    font-weight: 700;
+    position: relative;
+    left: 30px;
+    top: 80px;
+    font-size: 35px;
+    color: #00215B;
+}
+
+    /* ContainerImg - End */
+
+.relative-block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 1100px;
+    background-color: #e5e5e5;
+}
+
+
+
+/* Relative start */
+
+
+
+.relative-main{
+    width: 1270px;
+    height: 70%;
+    align-items: center;
+   
+    display: flex;
+
+  
+}
+.main-rl-block1{
+    width: 400px;
+    height: 90%;
+    background-image: url(./Group\ 52.png); 
+    background-size: cover;
+}
+.main-rl-block2{
+    width: 70%;
+    height: 86%;
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+.rl-main{
+    width: 80%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lr-text{
+    width: 90%;
+    
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #f9f9f9;
+}
+
+.rl-main h1{
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 34px;
+    color: #000;
+}
+.rl-main span{
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 18px;
+    color: crimson;
+}
+.lr-btn{
+    background-color: #D2153D;
+    padding: 11px 30px;
+    border: none;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #Fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+.lr-text p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color:#000;
+    margin-left: 20px;
+    line-height: 2;
+    width: 90%;
+   
+}
+
+.lr-text h1{
+    position: relative;
+    top: 70px;
+    margin-left: 20px;
+
+    font-weight: 700;
+}
+
+
+
+.bg-size{
+  width: 100%;
+  height: 773px;
+
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./Rectangle\ 29.png);
+  background-size: cover;
+}
+.size-main{
+width: 1000px;
+height: 80%;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+
+}
+.size-main span{
+  color: #Fff;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+.size-main h1{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 41px;
+  margin-top: 100px;
+  color: #Fff;
+}
+.size-main p{
+  color: #Fff;
+  margin-top: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 19px;
+}
+.size-main a{
+  background-color: #D2153D;
+    padding: 11px 30px;
+    border: none;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #Fff;
+    
+    font-size: 25px;
+    text-decoration: none;
+    width: 300px;
+    margin: auto;
+    top: 0;
+}
+
+
+
+.white-attach{
+  width: 100%;  
+  height: 1200px;
+  
+  background-color: #fff;
+}
+.attach-main{
+  width: 1300px;
+  height: 200px;
+ 
+ 
+  display: flex;
+  position: relative;
+  top: -60px;
+  
+  justify-content: space-between;
+  margin: auto;
+}
+.attachs{
+  width: 400px;
+  height: 100%;
+background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.red-block{
+  width: 100px;
+
+  height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+  background-color: #D2153D;
+  color: #Fff;
+}
+.attachs h2{
+  font-family: "Montserrat";
+  color: #D2153D;
+  font-size: 26px;
+  font-weight: 800;
+}
+.red-block h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.login-content{
+  width: 1300px;
+  height: 60%;
+
+  display: flex;
+  margin: 200px auto;
+}
+.login-cont1{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  height: 100%;
+  
+}
+.login-cont2{
+  width: 45%;
+  height: 100%;
+  position: relative;
+  left: 50px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.login-cont1 form{
+  width: 100%;
+  height: 90%;
+
+
+
+}
+.row-1{
+  width: 100%;
+  height: 12%;
+
+  display: flex;
+  align-items: center;
+  
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.row-1 input{
+  background: #FFFFFF;
+border: 2px solid rgba(0, 0, 0, 0.25);
+  width: 340px;
+  height: 40px;
+}
+.login-cont1 h1{
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #00215B;
+  font-size: 41px;
+  position: relative;
+  top: 30px;
+}
+.login-cont1 span{
+  font-family: "Montserrat";
+  font-style: 18px;
+  font-weight: 700;
+  
+  color: #D2153D;
+}
+.row-1 input::placeholder{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 19px;
+  font-style: oblique;
+  position: relative;
+  left: 20px;
+}
+.row-2{
+  width: 100%;
+  height: 12%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row-2 input{
+  background: #FFFFFF;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+    width: 340px;
+    height: 40px;
+}
+.row-2 input::placeholder{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 19px;
+  font-style: oblique;
+  position: relative;
+  left: 20px;
+}
+.textarea{
+  width: 100%;
+  background: #FFFFFF;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  height: 60%;
+  margin-top: 40px;
+}
+.row-1, .row-2{
+  position: relative;
+  top: 30px;
+}
+.textarea textarea{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  resize: none;
+}
+.textarea textarea::placeholder{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 21px;
+ font-style: oblique;
+top: 30px;
+width: 200px;
+left: 30px;
+ position: relative;
+}
+.cont-2{
+  width: 100%;
+  height: 20%;
+  
+  display: flex;
+  gap: 30px;
+  align-items: center;
+
+}
+.cont-2 img{
+  width: 130px;
+  height: 130px;
+}
+.imgh{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.cont-2 h2{
+  font-family: "Montserrat";
+  color: #000;
+  font-size: 23px;
+
+  
+}
+.btn-txa{
+  padding: 17px 40px;
+  background-color: #D2153D;
+  color: #Fff;
+  font-family: "Montserrat";
+  position: relative;
+  top: 50px;
+  border: none;
+  text-decoration: none;
+}
+.footer{
+  width: 100%;
+  height: 489px;
+  display: flex;
+
+}
+.ft-1{
+    width: 40%;
+   height: 100%;
+   background-color: #D2153D;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.ft-1__main h1{
+  font-family: "Montserrat";
+  color: #Fff;
+}
+.ft-2{
+  width: 60%;
+  height: 100%;
+  background-color: #00215B;
+  display: flex;
+  flex-direction: column;
+
+}
+.ft-1__main{
+  width: 70%;
+  height: 80%;
+
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+
+
+}
+.main-borders-ft{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70px;
+ 
+}
+.ft-bor{
+  width: 60px;
+  height: 60px;
+  background-color: #Fff;
+  border-radius: 50%;
+}
+.ft-1__main h3{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  color: #FFf;
+}
+.ft-1__main span{
+  font-weight: 300;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #Fff;
+  font-size: 28px;
+}
+.ft-bor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.ft-bor ion-icon{
+  color: #001ED3;
+  width: 31px;
+  height: 31px;
+
+
+}
+.ft-2__main{
+     width: 80%;
+     height: 80%;
+    
+     margin: 30px 50px;
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+}
+.ft-2item{
+  width: 100%;
+  height: 80%;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ft-2item h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #Fff;
+  width: 100%;
+  font-size: 28px;
+
+}
+.ft-2item span{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: #Fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+
+}
+
+.it-2{
+  position: relative;
+  top: -20px;
+}
+.ft-span{
+  font-size: 21px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  color: #Fff;
+  margin-left: 4%;
+  position: relative;
+  top: -4%;
+}
+.footer{
+  margin-top: 100px
+}
+/*# sourceMappingURL=main.css.map */

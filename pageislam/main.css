@@ -1,0 +1,883 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-block {
+  width: 100%;
+  height: 144px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__nav-block {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nav-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-1__icons {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-1__icons a {
+  text-decoration: none;
+}
+.nav-1__icons a ion-icon {
+  color: #001ED3;
+  width: 20px;
+  height: 20px;
+}
+
+.nav-1__items {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-1__items a {
+  color: #41444B;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
+}
+
+.border-line {
+  width: 100%;
+  height: 1px;
+  background-color: #D4D7DD;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-2__items {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-2__items a {
+  font-family: "Kanit", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-decoration: none;
+  color: #00215B;
+}
+
+.logo-nav {
+  width: 10%;
+  height: 100%;
+}
+
+.logo-nav::before {
+  content: "";
+  width: 25%;
+  height: 20%;
+  position: relative;
+  top: 4px;
+  left: 23px;
+  background-color: red;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .nav-1__icons {
+    width: 30%;
+  }
+  .nav-2__items {
+    display: none;
+  }
+  .nav-1__items {
+    gap: 10%;
+  }
+}
+.container__block {
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  min-height: 900px;
+  background-image: url(./office-building-from-low-angle-view-5JP662U\ \(1\).png);
+}
+
+.container__text-block {
+  width: 50%;
+  min-height: 70%;
+  margin: 10% 20%;
+}
+.container__text-block h1 {
+  color: #fff;
+  width: 100%;
+  font-family: "Montserrat";
+  font-weight: 400;
+  word-wrap: break-word;
+  font-size: 80px;
+}
+.container__text-block h1 span {
+  font-weight: 700;
+}
+.container__text-block p {
+  color: #Fff;
+  font-family: "Montserrat";
+  font-weight: 400;
+  word-wrap: break-word;
+  font-size: 17px;
+  width: 90%;
+  line-height: 2;
+  margin-top: 5%;
+}
+.container__text-block a {
+  background: #D2153D;
+  padding: 20px 30px;
+  text-decoration: none;
+  display: flex;
+  margin-top: 10%;
+  color: #Fff;
+  font-size: 16px;
+  font-family: "Montserrat";
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container__block-2 {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+.layout-container-2 {
+  width: 100%;
+  height: 50%;
+  background-color: #e5e5e5;
+}
+
+.layout-container-1 {
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  gap: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e5e5e5;
+}
+.layout-container-1 .layout-block1 {
+  width: 20%;
+  background-color: #D2153D;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.layout-container-1 .layout-block1 h1 {
+  font-family: "OpenSans", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 83px;
+  margin-left: 6%;
+}
+.layout-container-1 .layout-block1 h3 {
+  color: #Fff;
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 300;
+  margin-left: 6%;
+}
+.layout-container-1 .layout-block2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  height: 300px;
+  background-color: #00215B;
+}
+.layout-container-1 .layout-block2 h1 {
+  font-family: "OpenSans", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 83px;
+  margin-left: 6%;
+}
+.layout-container-1 .layout-block2 h3 {
+  color: #Fff;
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 300;
+  margin-left: 6%;
+}
+.layout-container-1 .layout-block3 {
+  width: 25%;
+  height: 700px;
+  background-color: #Fff;
+  position: relative;
+  top: -17%;
+}
+.layout-container-1 .layout-block3 h2 {
+  font-weight: 700;
+  font-size: 35px;
+  width: 80%;
+  margin-left: 3%;
+  line-height: 1.5;
+  margin-top: 10%;
+  font-family: "Montserrat";
+}
+.layout-container-1 .layout-block3 .layout3_icons {
+  width: 90%;
+  height: 60%;
+  margin-top: 7%;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+.layout-container-1 .layout-block3 .iconl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.layout-container-1 .layout-block3 .iconl h3 {
+  color: #00215B;
+  font-family: "Montserrat";
+  margin-top: 5%;
+}
+.layout-container-1 .layout-block3 .iconl p {
+  width: 70%;
+  font-family: "OpenSans", sans-serif;
+  font-size: 18px;
+  color: #000;
+  margin-left: 23%;
+  margin-top: -9%;
+}
+
+.layout2__main {
+  width: 80%;
+  margin: auto;
+  height: 530px;
+  display: flex;
+}
+
+.mainl1, .mainl2 {
+  width: 50%;
+  height: 100%;
+}
+
+.mainl1 span {
+  font-family: "Montserrat";
+  font-size: 18px;
+  color: #D2153D;
+}
+.mainl1 h1 {
+  color: #16213E;
+  font-weight: 900;
+  font-size: 42px;
+  font-family: "Montserrat";
+  width: 50%;
+}
+.mainl1 p {
+  margin-top: 7%;
+  color: #00215B;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.mainl1 .p-mainl2 {
+  font-family: "OpenSans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-top: 6%;
+}
+.mainl1 a {
+  background-color: #D2153D;
+  padding: 20px 30px;
+  width: 24%;
+  text-decoration: none;
+  color: #Fff;
+  font-family: "Montserrat";
+  font-size: 19px;
+  position: relative;
+  top: 13%;
+}
+
+.mainl2-block1 {
+  width: 45%;
+  border: solid 10px #Fff;
+  height: 60%;
+  background-image: url(./young-female-construction-specialist-engineer-revi-8DFXZ4A.png);
+  background-size: cover;
+}
+
+.mainl2-block2 {
+  border: solid 10px #Fff;
+  width: 40%;
+  height: 60%;
+  position: relative;
+  top: -20%;
+  left: -20%;
+  background-image: url(./road-construction-in-himalayas-QDEHVB2\ \(1\).png);
+}
+
+.mainbl {
+  margin-left: 20%;
+}
+
+.parcing-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.row {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+
+.row2 {
+  display: flex;
+}
+
+.row-content1 {
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  background-image: url(./professional-architect-woman-standing-outdoors-NDAEJH5\ \(1\).jpg);
+}
+
+.row-content2 {
+  width: 45%;
+  height: 100%;
+  background-image: url(./overlay.png);
+}
+
+.row-content3 {
+  width: 45%;
+  height: 100%;
+  background-image: url(./crane-and-building-construction-site-on-background-BPZXL3M.png);
+}
+
+.over {
+  background-image: url(./overlay\ \(1\).png);
+  width: 100%;
+  height: 100%;
+  opacity: 89%;
+}
+
+.row-content4 {
+  width: 45%;
+  height: 100%;
+  background-image: url(./overlay.png);
+}
+
+.rows {
+  background-color: purple;
+}
+
+.row1__text {
+  color: #Fff;
+  font-family: "Montserrat";
+  align-items: center;
+  height: 30%;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row1__text h2 {
+  width: 80%;
+  font-weight: 700;
+}
+.row1__text p {
+  width: 80%;
+}
+
+.border-log {
+  width: 60px;
+  height: 60px;
+  background-color: crimson;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 70%;
+}
+
+.log2 {
+  background-color: #00215B;
+}
+
+.border-log > ion-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.container-flexbox {
+  width: 100%;
+  height: 1300px;
+  background-color: #f2f2f2;
+  display: flex;
+}
+
+.main-flexbox {
+  width: 1300px;
+  height: 1000px;
+  margin: 100px auto;
+}
+
+.main-text {
+  margin: auto;
+  width: 70%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.main-text span {
+  font-family: "Montserrat";
+  color: #D2153D;
+}
+.main-text h1 {
+  color: #16213E;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 39px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 320px);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin-top: 100px;
+}
+
+.div1 {
+  height: 500px;
+  grid-area: 1/1/2/2;
+}
+
+.div2 {
+  grid-area: 1/2/2/3;
+  background-image: url(./round-building-CGY4TZ5\ \(1\).png);
+  background-size: cover;
+}
+
+.div3 {
+  grid-area: 1/3/2/4;
+  background-size: cover;
+  background-image: url(./office-building-P6EY7D6\ \(1\).png);
+}
+
+.div4 {
+  grid-area: 2/2/3/3;
+  background-image: url(./professional-architect-woman-standing-outdoors-NDAEJH5\ \(1\).jpg);
+}
+
+.div5 {
+  grid-area: 2/3/3/4;
+  background-size: cover;
+  background-image: url(./scott-webb-kAJE-3_4zHE-unsplash\ \(1\).png);
+}
+
+.parent div {
+  background-color: blue;
+}
+
+.auto-height {
+  background-size: cover;
+  background-image: url(./crane-and-building-construction-site-on-background-BPZXL3M.png);
+  height: 660px;
+}
+
+.over-2 {
+  background-color: #00215B;
+}
+
+.map-div {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-image: url(./Screenshot\ 2020-09-08\ at\ 15.08.47.png);
+}
+
+.map-footer {
+  width: 100%;
+  height: 140px;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+}
+
+.map-footer__layout {
+  width: 1100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dramp-checks {
+  width: 300px;
+  display: flex;
+  height: 100%;
+  background-color: transparent;
+}
+
+.nth-1 {
+  position: relative;
+  top: -80px;
+  height: 200px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+}
+
+.nth-2 {
+  justify-content: space-between;
+}
+
+.nth-2, .nth-3 {
+  position: relative;
+  top: 10px;
+}
+
+.nth-3 {
+  justify-content: space-between;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.map-body {
+  width: 90%;
+  height: 60%;
+  position: relative;
+  top: 20%;
+}
+.map-body span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.map-body h1 {
+  font-family: "Montserrat";
+  font-size: 27px;
+  color: #00215B;
+  position: relative;
+  top: 10px;
+}
+
+.icon-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #D2153D;
+}
+
+.icon-thumb-2 {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00215B;
+}
+
+.iconapp {
+  color: #Fff;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-text {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.icon-text span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.white-checks {
+  width: 100%;
+  height: 1100px;
+  background-color: #e5e5e5;
+}
+
+.white-main {
+  width: 1200px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto;
+  text-align: center;
+}
+.white-main span {
+  color: #D2153D;
+  font-family: "Montserrat";
+}
+.white-main h1 {
+  font-family: "Montserrat";
+  color: #00215B;
+  font-weight: 700;
+  font-size: 42px;
+  margin-top: 30px;
+}
+
+.white-body {
+  height: 80%;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+
+.border-wh {
+  width: 442px;
+  height: 544px;
+  background-size: cover;
+  border: solid 15px #fff;
+  background-image: url(./colleagues-brainstorming-in-the-office-A4RGGUX\ \(1\).png);
+}
+
+.wh-text {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.wh-text p {
+  text-align: left;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.5px;
+  width: 80%;
+}
+.wh-text span {
+  color: #001ED3;
+}
+.wh-text h2 {
+  font-family: "Montserrat";
+  font-size: 36px;
+}
+
+.border-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #001ED3;
+}
+
+.borders {
+  width: 120px;
+  height: 120px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.border-lines {
+  border-radius: 50%;
+  background-color: #001ED3;
+}
+
+.l1 {
+  width: 30px;
+  height: 30px;
+}
+
+.l2 {
+  width: 20px;
+  height: 20px;
+}
+
+.l3 {
+  width: 10px;
+  height: 10px;
+}
+
+.dump-img {
+  width: 100%;
+  height: 600px;
+  background-image: url(./Mask.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-check {
+  width: 150px;
+  height: 150px;
+  background-color: #Fff;
+  background-image: url(./play.png);
+  background-size: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.white-block-footer{
+  width: 100%;
+  height: 100px;
+  background-color: #Fff;
+}
+
+.footer{
+  width: 100%;
+  height: 489px;
+  display: flex;
+
+}
+.ft-1{
+    width: 40%;
+   height: 100%;
+   background-color: #D2153D;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.ft-1__main h1{
+  font-family: "Montserrat";
+  color: #Fff;
+}
+.ft-2{
+  width: 60%;
+  height: 100%;
+  background-color: #00215B;
+  display: flex;
+  flex-direction: column;
+
+}
+.ft-1__main{
+  width: 70%;
+  height: 80%;
+
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+
+
+}
+.main-borders-ft{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70px;
+ 
+}
+.ft-bor{
+  width: 60px;
+  height: 60px;
+  background-color: #Fff;
+  border-radius: 50%;
+}
+.ft-1__main h3{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  color: #FFf;
+}
+.ft-1__main span{
+  font-weight: 300;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #Fff;
+  font-size: 28px;
+}
+.ft-bor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.ft-bor ion-icon{
+  color: #001ED3;
+  width: 31px;
+  height: 31px;
+
+
+}
+.ft-2__main{
+     width: 80%;
+     height: 80%;
+    
+     margin: 30px 50px;
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+}
+.ft-2item{
+  width: 100%;
+  height: 80%;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ft-2item h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #Fff;
+  width: 100%;
+  font-size: 28px;
+
+}
+.ft-2item span{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: #Fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+
+}
+
+.it-2{
+  position: relative;
+  top: -20px;
+}
+.ft-span{
+  font-size: 21px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  color: #Fff;
+  margin-left: 4%;
+  position: relative;
+  top: -4%;
+}
+/*# sourceMappingURL=main.css.map */

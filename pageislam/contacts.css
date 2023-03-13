@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-block {
+  width: 100%;
+  height: 144px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__nav-block {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nav-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-1__icons {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-1__icons a {
+  text-decoration: none;
+}
+.nav-1__icons a ion-icon {
+  color: #001ED3;
+  width: 20px;
+  height: 20px;
+}
+
+.nav-1__items {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-1__items a {
+  color: #41444B;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
+}
+
+.border-line {
+  width: 100%;
+  height: 1px;
+  background-color: #D4D7DD;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-2__items {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-2__items a {
+  font-family: "Kanit", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-decoration: none;
+  color: #00215B;
+}
+
+.logo-nav {
+  width: 10%;
+  height: 100%;
+}
+
+.logo-nav::before {
+  content: "";
+  width: 25%;
+  height: 20%;
+  position: relative;
+  top: 4px;
+  left: 23px;
+  background-color: red;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .nav-1__icons {
+    width: 30%;
+  }
+  .nav-2__items {
+    display: none;
+  }
+  .nav-1__items {
+    gap: 10%;
+  }
+}
+.sun{
+    width: 100%;
+    height: 419px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    background-image: url(https://img2.goodfon.ru/wallpaper/nbig/c/ae/stroyka-kran-zakat.jpg);
+}
+.sun-text{
+    width: 400px;
+    height: 200px;
+    margin: 140px 370px;
+   
+}
+.sun-text h1{
+    font-family: "Montserrat";
+    font-size: 34px;
+    color: #Fff; 
+
+}
+.sun-text span{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #Fff;
+    top: 20px;
+    position: relative;
+
+}
+.flex-cont{
+    width: 100%;
+    height: 1500px;
+    background-color: #Fff;
+
+}
+.footer{
+    width: 100%;
+    height: 489px;
+    display: flex;
+  
+  }
+  .ft-1{
+      width: 40%;
+     height: 100%;
+     background-color: #D2153D;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  .ft-1__main h1{
+    font-family: "Montserrat";
+    color: #Fff;
+  }
+  .ft-2{
+    width: 60%;
+    height: 100%;
+    background-color: #00215B;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .ft-1__main{
+    width: 70%;
+    height: 80%;
+  
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+  
+  
+  }
+  .main-borders-ft{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    height: 70px;
+   
+  }
+  .ft-bor{
+    width: 60px;
+    height: 60px;
+    background-color: #Fff;
+    border-radius: 50%;
+  }
+  .ft-1__main h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: #FFf;
+  }
+  .ft-1__main span{
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #Fff;
+    font-size: 28px;
+  }
+  .ft-bor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .ft-bor ion-icon{
+    color: #001ED3;
+    width: 31px;
+    height: 31px;
+  
+  
+  }
+  .ft-2__main{
+       width: 80%;
+       height: 80%;
+      
+       margin: 30px 50px;
+       align-items: center;
+       display: flex;
+       justify-content: space-between;
+  }
+  .ft-2item{
+    width: 100%;
+    height: 80%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .ft-2item h2{
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #Fff;
+    width: 100%;
+    font-size: 28px;
+  
+  }
+  .ft-2item span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #Fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .it-2{
+    position: relative;
+    top: -20px;
+  }
+  .ft-span{
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    color: #Fff;
+    margin-left: 4%;
+    position: relative;
+    top: -4%;
+  }
+  .m-1{
+background-image: url(/projectitstudent/pp/images/images.news/Picture.svg);
+  }
+  .m-4{
+    background-image: url(/projectitstudent/pp/images/images.news/Picture\ \(2\).svg);
+  }
+  .m6{
+    background-image: url(./images/Rectangle\ 18.svg);
+    background-size: cover;
+  }
+
+  .m-8{
+    background-size: cover;
+    background-image: url(./crane-and-building-construction-site-on-background-BPZXL3M.png);
+
+  }
+ .ma-otext h2{
+  font-family:"Montserrat";
+  font-size:28px;
+  color:#FFf;
+  position: relative;
+  top: 80px;
+  left: 12px;
+
+ }
+
+ .ma-otext p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  position: relative;
+  left: 12px;
+  top: 100px;
+  color: #Fff;
+ }
+ .ma-otext a{
+  padding: 17px 50px;
+  border: solid 2px #Fff;
+  text-decoration: none;
+  color: #FFf;
+  position: relative;
+  top: 180px;
+  font-family: "Montserrat";
+  left: 12px;
+
+ }
+
+.flex-main{
+    width: 1300px;
+  top: 120px;
+  position: relative;
+    height: 1600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+}
+.row-fl{
+    width: 100%;
+    height: 590px;
+    display: flex;
+    justify-content: space-between;
+}
+.row-fl div{
+    width: 362px;
+    height: 590px;
+    background-color: red;
+}
+.row-main{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.row-main .div1{
+width: 820px;
+height: 490px;
+
+}
+.div2{
+    width: 360px;
+    height: 420px;
+    margin-top: 70px;
+    background-color: crimson;
+}
+.row-add{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1-text__inner{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 35px;
+    color: #00215B;
+}
+.row-fl div:nth-child(1){
+    background-image: url(https://ural-meridian.ru/wp-content/uploads/2022/08/Obezd-obektov-Ekaterinburga-Orlov-60.jpg);
+    background-size: cover;
+}
+.row-fl div:nth-child(2){
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/26/11/14/construction-4794329_960_720.png);
+    background-size: cover;
+}
+.row-fl div:nth-child(3){
+    background-image: url(https://openmedia.io/files/2020/04/%D1%81%D1%82%D1%80%D0%BE%D0%B8%CC%86%D0%BA%D0%B0111.jpg);
+    background-size: cover;
+}
+.div1{
+    color: #Fff;
+
+
+}
+.div1 h1{
+    font-family: "Montserrat";
+    font-size: 29px;
+    color: #000;
+    font-weight: 900;
+}
+.div1 p{
+    position: relative;
+    top: 20px;
+    font-weight: 700;
+    color: #000;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 19px;
+}
+.border-block{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2 h1{
+    color: #00215B;
+    font-family: "Montserrat";
+    font-size: 31px;
+    font-weight: 900;
+    color: #FFF;
+}
+.div2 span{
+    color: #00215B;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    width: 80%;
+    color: #FFF;
+}
+.border-block ion-icon{
+    width: 60px;
+    height: 60px;
+    color: crimson;
+
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.div2 h1,span,.border-block{
+    position: relative;
+    left: 20px;
+}
+.append{
+    width: 280px;
+    height: 230px;
+    
+    background-color: #f2f2f2;
+}
+.lineborder{
+    width: 100%;
+    height: 10px;
+    background-color: crimson;
+}
+.clom{
+    display: flex;
+
+width: 40%;
+
+align-items: center;
+justify-content: space-between;
+}
+.clom span{
+    font-family: "Montserrat";
+    font-size: 18px;
+    width: 600;
+
+}
+.append{
+    display: flex;
+    flex-direction: column;
+   
+}
+.append h1{
+    font-family: "Montserrat";
+    margin-top: 30px;
+    margin-left: 17px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #00215B;
+}
+.spanoff{
+    position: relative;
+     top: 20px;    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+}
+.clom{
+    position: relative;
+    top: 50px;
+}
+
+.row-add{
+    position: relative;
+    top: 40px;
+}
+.footer{
+    position: relative;
+    top: 100px;
+}
+.ft-span{
+    width: 90%;
+}
